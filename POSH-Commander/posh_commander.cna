@@ -265,7 +265,7 @@ sub custLocCommands {
 
 
 sub sendCommand {
-		cmd($console, "use windows/manage/powershell/remote_powershell");
+		cmd($console, "use post/windows/manage/powershell/remote_powershell");
 		cmd_set($console, %(
 							SESSION => "$sid",
 							SCRIPT 	=> "$scriptUrl",
